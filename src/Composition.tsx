@@ -1,16 +1,12 @@
 import {AbsoluteFill} from 'remotion';
-import {Logo} from './Logo';
-import {Subtitle} from './Subtitle';
-import {Title} from './Title';
+import Image from './Image';
+import Info from './Info';
 
 export const MyComposition = () => {
 	return (
-		<AbsoluteFill className="bg-gray-100 items-center justify-center">
-			<div className="m-10" />
-			<Logo />
-			<div className="m-3" />
-			<Title />
-			<Subtitle />
+		<AbsoluteFill className="bg-gray-100 items-center justify-beetween">
+			<Image />
+			<Info />
 		</AbsoluteFill>
 	);
 };
